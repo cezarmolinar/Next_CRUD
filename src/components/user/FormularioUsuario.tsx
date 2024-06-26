@@ -1,4 +1,4 @@
-import { UserModel } from '@/model/Usuario'
+import { UserModel } from '@/model/User'
 import InputTexto from '../InputTexto'
 
 export interface FormularioUsuarioProps {
