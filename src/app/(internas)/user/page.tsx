@@ -5,9 +5,9 @@ import Pagina from '@/components/template/Pagina'
 import Titulo from '@/components/template/Titulo'
 import FormularioUsuario from '@/components/user/FormularioUsuario'
 import ListaUsuario from '@/components/user/ListaUser'
-import { UserModel } from '@/model/Usuario'
 import { IconPlus, IconUser } from '@tabler/icons-react'
 import { useEffect, useState } from 'react'
+import { UserModel } from '@/model/User'
 
 export default function Page() {
   const [usuarios, setUsuarios] = useState<UserModel[]>([])
